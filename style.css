@@ -1,0 +1,8 @@
+div#output {
+    font-size: 3rem;
+    border: solid black;
+    height: 65px;
+    margin: 30px;
+    color:black;
+    background-color: white;
+}
