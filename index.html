@@ -5,17 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator</title>
-    <link rel="stylesheet" src="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form onsubmit="event()">
-        <input type="int" name="weight" id="weight" placeholder="weight">
+  <div class="container">
+        <input type="text" name="weight" id="weight" placeholder="weight in kg">
+        <span id="weight_error"></span> 
         <br>
-        <input type="int" name="height" id="height" placeholder="height">
+        <input type="text" name="height" id="height" placeholder="height in m">
+        <span id="height_error"></span>
         <br>
-        <button type="submit">submit</button>
-    </form>
+        <button type="submit" id="btn">calculate</button>
+        <div id="output"></div>
+    </div>
     <div id="output"></div>
-<script src="index.js"></script>  
+<script src="./script.js"></script>  
 </body>
 </html>
