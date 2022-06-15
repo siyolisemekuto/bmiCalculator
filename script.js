@@ -38,3 +38,7 @@ button.addEventListener('click',()=>{
         results.innerHTML = ''
     }
 })
+function reset(clear){
+    bmi = ""
+    document.getElementById("output").innerHTML=bmi   
+}

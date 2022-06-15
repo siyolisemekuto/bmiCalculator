@@ -1,38 +1,49 @@
+:root{
+    --color1:#FAD6A5;
+    --color2:#FF8A60;
+    --color3:#BFA8AD;
+  }
 body{
     margin: 0%;
     padding: 0%;
-    color: white;
+    color: black;
     font-family: sans-serif;
-    background-color: burlywood;
+    background-color: var(--color1);
 }
 span{
     color: red
 }
 .container{
     position: absolute;
-    top: 45%;
+    top: 25%;
     left:50%;
     transform: translate(-50%);
     padding:15px;
-    background-color: beige;
+    background-color: var(--color3);
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 input{
     outline: none;
     border: none;
     padding: 5px;
     margin-top: 10px;
+    height: 3rem;
+    width: 8rem;
 }
 button{
-    color: white;
     padding: 10px;
-    border: 2px solid white;
-    background: black;
+    border: 2px solid var(--color1);
+    background: var(--color2);
     display: block;
-    margin-top: 10%;
+    margin-top: 5%;
     cursor: pointer;
 }
-output{
-    color: black;
-    font-size: 15px;
+#output{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
 }
