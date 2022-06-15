@@ -1,8 +1,38 @@
-div#output {
-    font-size: 3rem;
-    border: solid black;
-    height: 65px;
-    margin: 30px;
-    color:black;
-    background-color: white;
+body{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family: sans-serif;
+    background-color: burlywood;
+}
+span{
+    color: red
+}
+.container{
+    position: absolute;
+    top: 45%;
+    left:50%;
+    transform: translate(-50%);
+    padding:15px;
+    background-color: beige;
+    border-radius: 5px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+}
+button{
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    background: black;
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+}
+output{
+    color: black;
+    font-size: 15px;
 }
